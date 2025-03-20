@@ -24,6 +24,12 @@ return {
 			lspconfig.lua_ls.setup({
 				capabilities = capabilities
 			})
+            lspconfig.ltex.setup({
+                capabilities = capabilities
+            })
+            lspconfig.texlab.setup({
+                capabilities = capabilities
+            })
 			lspconfig.clangd.setup({
 				capabilities = capabilities
 			})
