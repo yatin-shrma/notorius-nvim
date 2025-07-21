@@ -56,7 +56,7 @@ return {
 			height = 0.5,
 			show_nu = true,
 			show_rnu = false,
-			close_mappings = { "q", "Q" },
+--		    close_mappings = { "q", "Q" },
 		},
 	},
 	popup_ui = {
@@ -129,6 +129,6 @@ return {
 	open_received_problems = true,
 	open_received_contests = true,
 	replace_received_testcases = false,
-        }) 
+        })
     end,
 }
